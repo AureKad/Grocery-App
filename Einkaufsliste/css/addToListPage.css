@@ -1,0 +1,94 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #262626;
+    color: white;
+    text-align: center;
+}
+#title {
+    margin-top: 20px;
+    font-size: 32px;
+}
+#top-right-button {
+    background-color:white;
+    float:right;
+    top: 20px;
+    right:20px;
+    position: absolute;
+}
+#main {
+    margin-top: 30px;
+}
+.addeinkaufsliste {
+    width: 69%;
+    display:inline-block;
+    background-color: #333333;
+    margin-top: 2px;
+}
+#einfügen {
+    width: 30%;
+    float: right;
+}
+.food {
+    margin-top: 2px;
+    padding:16px;
+    background-color: #333333;
+}
+.food:hover {
+    background-color:gray;
+}
+.mdl-textfield {
+    margin-top: 2px;
+    padding:16px;
+    background-color: #333333;
+}
+.mdl-checkbox__input {
+    text-align: right;
+}
+.demo-list-icon {
+    width:250px;
+
+}
+#fastinsert {
+    display:table;
+    margin:-7px auto 0px auto;
+}
+#fastinsertdel {
+    margin-top: 60px;
+}
+#clearstor {
+    background-color:black;
+    float:left;
+    top: 20px;
+    left:20px;
+    position: absolute;
+}
+
+#todolist {
+    display:table;
+    margin:0px auto 0px auto;
+}
+
+
+@media (min-width: 800px) {
+    body {
+        font-size: large;
+    }
+    .mdl-checkbox {
+        margin-top: 24px;
+        text-align: left;
+    }
+    #fastinsertdel {
+        margin-top: 0px;
+    }
+    .food {
+        margin-top: 2px;
+        padding:16px;
+        background-color: #333333;
+        width: 300px;
+        font-size: large;
+    }
+    .addeinkaufsliste {
+        background-color: #333333;
+        margin-top: 2px;
+    }
+}
